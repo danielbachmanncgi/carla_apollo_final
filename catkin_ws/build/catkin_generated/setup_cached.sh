@@ -7,5 +7,5 @@
 # new environment variables
 
 # modified environment variables
+export PATH="/opt/ros/melodic/bin:/home/carla/virtual_envs/carla/bin:/home/carla/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 export PWD="/home/carla/carla-apollo/nemodrive/catkin_ws/build"
-export ROS_PACKAGE_PATH="/home/carla/carla-apollo/test/catkin_ws/src:/home/carla/carla-apollo/nemodrive/catkin_ws/src:/opt/ros/melodic/share"

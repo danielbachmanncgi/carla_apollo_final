@@ -1,0 +1,34 @@
+<!-- -->
+<launch>
+  <arg name="wheelbase" default="2.7" /> <!-- distance between front and back axle in meters -->
+
+  <param name="/vehicle_info/wheel_base" type="double" value="$(arg wheelbase)" />
+  <param name="/vehicle_info/minimum_turning_radius" type="double" value="5" />
+  <param name="/vehicle_info/maximum_steering_angle" type="double" value="70" />
+
+
+  <!--
+    ##############################
+    # ROS remapping + conversion #
+    ##############################
+  -->
+  <!--
+    # TF remapping #
+  -->
+  <include file="$(find carla_apollo_bridge)/launch/tf.launch"/>
+
+  <!--
+    # LIDAR #
+    remap carla lidar to apollo.
+  -->
+  <node pkg="topic_tools" type="relay" name="lidar_relay" args="/carla/ego_vehicle/lidar/lidar1/point_cloud /lidar_0"/>
+
+  <!--
+    # CAMERA #
+    remap carla front camera to apollo.
+  -->
+  <node pkg="topic_tools" type="relay" name="camera_relay" args="/carla/ego_vehicle/camera/rgb/front/image_color /camera_short/image_raw"/>
+
+
+</launch>
+

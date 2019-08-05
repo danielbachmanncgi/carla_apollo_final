@@ -246,7 +246,7 @@ LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 NOSETESTS:FILEPATH=/usr/bin/nosetests-2.7
 
 //Path to a program.
-PYTHON_EXECUTABLE:FILEPATH=/home/carla/virtual_envs/carla/bin/python2
+PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python2
 
 //Specify specific Python version to use ('major.minor' or 'major')
 PYTHON_VERSION:STRING=2
@@ -291,10 +291,37 @@ actionlib_DIR:PATH=/opt/ros/melodic/share/actionlib/cmake
 actionlib_msgs_DIR:PATH=/opt/ros/melodic/share/actionlib_msgs/cmake
 
 //Value Computed by CMake
-carla_ros_bridge_BINARY_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla-apollo-ros-bridge
+carla_apollo_bridge_BINARY_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_apollo_bridge
 
 //Value Computed by CMake
-carla_ros_bridge_SOURCE_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla-apollo-ros-bridge
+carla_apollo_bridge_SOURCE_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_apollo_bridge
+
+//Value Computed by CMake
+carla_ego_vehicle_BINARY_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_ego_vehicle
+
+//Value Computed by CMake
+carla_ego_vehicle_SOURCE_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_ego_vehicle
+
+//Value Computed by CMake
+carla_manual_control_BINARY_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_manual_control
+
+//Value Computed by CMake
+carla_manual_control_SOURCE_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_manual_control
+
+//Value Computed by CMake
+carla_msgs_BINARY_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_msgs
+
+//The directory containing a CMake configuration file for carla_msgs.
+carla_msgs_DIR:PATH=/home/carla/carla-apollo/nemodrive/catkin_ws/devel/share/carla_msgs/cmake
+
+//Value Computed by CMake
+carla_msgs_SOURCE_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_msgs
+
+//Value Computed by CMake
+carla_ros_bridge_BINARY_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla-ros-bridge/carla_ros_bridge
+
+//Value Computed by CMake
+carla_ros_bridge_SOURCE_DIR:STATIC=/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla-ros-bridge/carla_ros_bridge
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
@@ -439,7 +466,7 @@ xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
 
 //catkin environment
 CATKIN_ENV:INTERNAL=/home/carla/carla-apollo/nemodrive/catkin_ws/build/catkin_generated/env_cached.sh
-CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/carla/carla-apollo/test/catkin_ws/build/test_results
+CATKIN_TEST_RESULTS_DIR:INTERNAL=/home/carla/carla-apollo/nemodrive/catkin_ws/build/test_results
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -522,7 +549,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/carla/carla-apollo/test/catkin_ws/src
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/carla/carla-apollo/nemodrive/catkin_ws/src
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -542,7 +569,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -584,7 +611,7 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding PythonInterp
-FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/home/carla/virtual_envs/carla/bin/python2][v2.7.15()]
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python2][v2.7.15()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE

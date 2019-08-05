@@ -1,8 +1,12 @@
 # CMake generated Testfile for 
-# Source directory: /home/carla/carla-apollo/test/catkin_ws/src
-# Build directory: /home/carla/carla-apollo/test/catkin_ws/build
+# Source directory: /home/carla/carla-apollo/nemodrive/catkin_ws/src
+# Build directory: /home/carla/carla-apollo/nemodrive/catkin_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("carla-apollo-ros-bridge")
+subdirs("carla_msgs")
+subdirs("carla_apollo_bridge")
+subdirs("carla_ego_vehicle")
+subdirs("carla_manual_control")
+subdirs("carla-ros-bridge/carla_ros_bridge")

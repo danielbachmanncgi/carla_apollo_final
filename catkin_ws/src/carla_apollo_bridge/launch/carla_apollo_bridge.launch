@@ -1,0 +1,34 @@
+<!-- -->
+<launch>
+  <arg name='host' default='localhost'/>
+  <arg name='port' default='2000'/>
+  <arg name="vehicle_filter" default='vehicle.toyota.prius*' />
+  <arg name="sensor_definition_file" default='$(find carla_apollo_bridge)/config/sensors.json'/>
+
+  <!--
+    #################
+    # CARLA Clients #
+    #################
+  -->
+  <!-- ros-bridge -->
+  <include file="$(find carla_ros_bridge)/launch/client.launch">
+    <arg name='host' value='$(arg host)'/>
+    <arg name='port' value='$(arg port)'/>
+  </include>
+
+  <!-- carla apollo ego vehicle -->
+  <include file="$(find carla_ego_vehicle)/launch/carla_example_ego_vehicle.launch" >
+    <arg name='host' value='$(arg host)'/>
+    <arg name='port' value='$(arg port)'/>
+    <arg name='vehicle_filter' value='$(arg vehicle_filter)'/>
+    <arg name="sensor_definition_file" default='$(arg sensor_definition_file)'/>
+  </include>
+
+<!--
+    ##############################
+    # ROS remapping + conversion #
+    ##############################
+  -->
+  <include file="$(find carla_apollo_bridge)/launch/carla_apollo_bridge_common.launch"/>
+</launch>
+

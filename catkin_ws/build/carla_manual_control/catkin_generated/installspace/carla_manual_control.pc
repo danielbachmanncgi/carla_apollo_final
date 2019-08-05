@@ -1,0 +1,8 @@
+prefix=/home/carla/carla-apollo/nemodrive/catkin_ws/install
+
+Name: carla_manual_control
+Description: Description of carla_manual_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/carla/carla-apollo/nemodrive/catkin_ws/install/lib 
+Requires: rospy

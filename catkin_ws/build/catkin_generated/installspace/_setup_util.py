@@ -1,4 +1,4 @@
-#!/home/carla/virtual_envs/carla/bin/python2
+#!/usr/bin/python2
 # -*- coding: utf-8 -*-
 
 # Software License Agreement (BSD License)
