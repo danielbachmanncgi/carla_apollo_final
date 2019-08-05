@@ -1,0 +1,2 @@
+carla-apollo-ros-bridge
+-DCATKIN_DEVEL_PREFIX=/home/carla/carla-apollo/nemodrive/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/carla/carla-apollo/nemodrive/catkin_ws/install -G Unix Makefiles
