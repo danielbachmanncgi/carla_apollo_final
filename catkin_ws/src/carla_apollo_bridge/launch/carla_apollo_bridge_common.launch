@@ -27,8 +27,9 @@
     # CAMERA #
     remap carla front camera to apollo.
   -->
-  <node pkg="topic_tools" type="relay" name="camera_relay" args="/carla/ego_vehicle/camera/rgb/front/image_color /camera_short/image_raw"/>
-
+  <node pkg="topic_tools" type="relay" name="camera_short_relay" args="/carla/ego_vehicle/camera/rgb/front/image_color /camera_short/image_raw"/>
+  
+  <node pkg="topic_tools" type="relay" name="camera_long_relay" args="/carla/ego_vehicle/camera/rgb/view/image_color /camera_long/image_raw"/>
 
 </launch>
 
