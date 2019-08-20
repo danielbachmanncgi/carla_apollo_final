@@ -1,8 +1,8 @@
-# Install script for directory: /home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_ego_vehicle
+# Install script for directory: /home/carla/carla-apollo/catkin_ws/src/carla_ego_vehicle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/carla/carla-apollo/nemodrive/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/carla/carla-apollo/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,33 +38,33 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_ego_vehicle/catkin_generated/safe_execute_install.cmake")
+  include("/home/carla/carla-apollo/catkin_ws/build/carla_ego_vehicle/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_ego_vehicle/catkin_generated/installspace/carla_ego_vehicle.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/carla/carla-apollo/catkin_ws/build/carla_ego_vehicle/catkin_generated/installspace/carla_ego_vehicle.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ego_vehicle/cmake" TYPE FILE FILES
-    "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_ego_vehicle/catkin_generated/installspace/carla_ego_vehicleConfig.cmake"
-    "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_ego_vehicle/catkin_generated/installspace/carla_ego_vehicleConfig-version.cmake"
+    "/home/carla/carla-apollo/catkin_ws/build/carla_ego_vehicle/catkin_generated/installspace/carla_ego_vehicleConfig.cmake"
+    "/home/carla/carla-apollo/catkin_ws/build/carla_ego_vehicle/catkin_generated/installspace/carla_ego_vehicleConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ego_vehicle" TYPE FILE FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_ego_vehicle/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ego_vehicle" TYPE FILE FILES "/home/carla/carla-apollo/catkin_ws/src/carla_ego_vehicle/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_ego_vehicle" TYPE PROGRAM FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_ego_vehicle/catkin_generated/installspace/carla_ego_vehicle.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_ego_vehicle" TYPE PROGRAM FILES "/home/carla/carla-apollo/catkin_ws/build/carla_ego_vehicle/catkin_generated/installspace/carla_ego_vehicle.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ego_vehicle/launch" TYPE DIRECTORY FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_ego_vehicle/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ego_vehicle/launch" TYPE DIRECTORY FILES "/home/carla/carla-apollo/catkin_ws/src/carla_ego_vehicle/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ego_vehicle/config" TYPE DIRECTORY FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_ego_vehicle/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ego_vehicle/config" TYPE DIRECTORY FILES "/home/carla/carla-apollo/catkin_ws/src/carla_ego_vehicle/config/")
 endif()
 

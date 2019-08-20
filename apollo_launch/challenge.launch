@@ -1,0 +1,16 @@
+<!-- -->
+<launch>
+  <param name="use_sim_time" value="true"/>
+  <arg name='host' default='localhost'/>
+  <arg name='port' default='2000'/>
+
+  <node pkg="tf"  type="static_transform_publisher" name="baselink_to_gnss" args="0 0 0 0 0 0 /base_link /ego_vehicle/gnss/gnss1 10" />
+  <node pkg="tf"  type="static_transform_publisher" name="baselink_to_lidar" args="0 0 0 0 0 0 /base_link /ego_vehicle/lidar/lidar1 10" />
+  <node pkg="tf"  type="static_transform_publisher" name="baselink_to_camera" args="0 0 0 0 0 0 /base_link /ego_vehicle/camera/rgb/front 10" />
+
+
+  <include file="$(find carla_apollo_bridge)/launch/carla_apollo_bridge_common.launch"/>
+  <node name="player_vehicle_relay" pkg="carla_ros_bridge" type="player_vehicle_relay.py" />
+
+</launch>
+

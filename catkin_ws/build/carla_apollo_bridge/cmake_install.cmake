@@ -1,8 +1,8 @@
-# Install script for directory: /home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_apollo_bridge
+# Install script for directory: /home/carla/carla-apollo/catkin_ws/src/carla_apollo_bridge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/carla/carla-apollo/nemodrive/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/carla/carla-apollo/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,45 +38,45 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_apollo_bridge/catkin_generated/safe_execute_install.cmake")
+  include("/home/carla/carla-apollo/catkin_ws/build/carla_apollo_bridge/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/carla_apollo_bridge.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/carla/carla-apollo/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/carla_apollo_bridge.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_apollo_bridge/cmake" TYPE FILE FILES
-    "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/carla_apollo_bridgeConfig.cmake"
-    "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/carla_apollo_bridgeConfig-version.cmake"
+    "/home/carla/carla-apollo/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/carla_apollo_bridgeConfig.cmake"
+    "/home/carla/carla-apollo/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/carla_apollo_bridgeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_apollo_bridge" TYPE FILE FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_apollo_bridge/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_apollo_bridge" TYPE FILE FILES "/home/carla/carla-apollo/catkin_ws/src/carla_apollo_bridge/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_apollo_bridge" TYPE PROGRAM FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/carla_to_apollo_vehicle_status")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_apollo_bridge" TYPE PROGRAM FILES "/home/carla/carla-apollo/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/carla_to_apollo_vehicle_status")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_apollo_bridge" TYPE PROGRAM FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/carla_to_apollo_waypoints")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_apollo_bridge" TYPE PROGRAM FILES "/home/carla/carla-apollo/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/carla_to_apollo_waypoints")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_apollo_bridge" TYPE PROGRAM FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/odometry_to_posestamped")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_apollo_bridge" TYPE PROGRAM FILES "/home/carla/carla-apollo/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/odometry_to_posestamped")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_apollo_bridge" TYPE PROGRAM FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/vehiclecmd_to_ackermanndrive")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/carla_apollo_bridge" TYPE PROGRAM FILES "/home/carla/carla-apollo/catkin_ws/build/carla_apollo_bridge/catkin_generated/installspace/vehiclecmd_to_ackermanndrive")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_apollo_bridge/launch" TYPE DIRECTORY FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_apollo_bridge/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_apollo_bridge/launch" TYPE DIRECTORY FILES "/home/carla/carla-apollo/catkin_ws/src/carla_apollo_bridge/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_apollo_bridge/config" TYPE DIRECTORY FILES "/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_apollo_bridge/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_apollo_bridge/config" TYPE DIRECTORY FILES "/home/carla/carla-apollo/catkin_ws/src/carla_apollo_bridge/config/")
 endif()
 
