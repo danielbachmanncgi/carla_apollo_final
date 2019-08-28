@@ -4,7 +4,7 @@
 #https://github.com/autowarefoundation/autoware/issues/2200
 #
 #cleanup from previous runs
-rosnode cleanup <<< 'y'
+#rosnode cleanup <<< 'y'
 
 #As a workaround we wait 5 seconds in simulation time
 echo "Waiting for 5 seconds in simulation time..."

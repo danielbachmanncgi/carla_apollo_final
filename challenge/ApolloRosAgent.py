@@ -32,6 +32,6 @@ class ApolloRosAgent(RosAgent):
         json_sensors = None
         with open(filename) as handle:
             json_sensors = json.loads(handle.read())
-        
         return json_sensors["sensors"]
+        
 

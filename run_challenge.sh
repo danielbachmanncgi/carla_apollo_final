@@ -11,7 +11,8 @@ echo "export CARLA_APOLLO_ROOT"
 
 echo "--run challenge--"
 python $ROOT_SCENARIO_RUNNER/srunner/challenge/challenge_evaluator_routes.py \
- --scenarios=$ROOT_SCENARIO_RUNNER/srunner/challenge/all_towns_traffic_scenarios1_3_4.json \
+ --scenarios=$TEAM_CODE_ROOT/Town02_traffic_scenarios1_3_4.json \
  --agent=$TEAM_CODE_ROOT/ApolloRosAgent.py \
  --filename=$TEAM_CODE_ROOT/results.json \
- --debug=1 
+ --debug=0
+  
