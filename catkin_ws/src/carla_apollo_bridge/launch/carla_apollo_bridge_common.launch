@@ -31,7 +31,9 @@
   
   <node pkg="topic_tools" type="relay" name="camera_long_relay" args="/carla/ego_vehicle/camera/rgb/view/image_color /camera_long/image_raw"/>
 
-  <node pkg="topic_tools" type="relay" name="control_relay" args="/carla_control /carla/ego_vehicle/vehicle_control_cmd"/>
+  <node pkg="carla_ros_bridge" name="player_vehicle_relay" type="player_vehicle_relay.py" />
+
+  <node pkg="carla_ros_bridge" name="apollo_control_to_carla" type="apollo_control_to_carla.py" />
 
 </launch>
 

@@ -1,46 +1,51 @@
 #!/usr/bin/env python2
-#
-# Copyright (c) 2019 Intel Corporation
-#
-# This work is licensed under the terms of the MIT license.
-# For a copy, see <https://opensource.org/licenses/MIT>.
+
 """
-receive a path from carla_ros_waypoint_publisher and convert it to autoware
+receive a path from carla_scenario_runner and convert it to apollo
 """
 import rospy
-from autoware_msgs.msg import LaneArray
-from autoware_msgs.msg import Lane
-from autoware_msgs.msg import Waypoint
+
 from nav_msgs.msg import Path
+from std_msgs.msg import String
 
-pub = rospy.Publisher('/lane_waypoints_array', LaneArray, queue_size=1, latch=True)
 
+APOLLO_WAYPOINTS_TOPIC = '/route_to_apollo'
+CALRA_WAYPOINTS_TOPIC = '/carla/ego_vehicle/waypoints'
+CARLA_PLAYER_VEHICLE_TOPIC = '/player_vehicle'
 
-def path_callback(data):
-    """
-    callback for path. Convert it to Autoware LaneArray and publish it
-    """
-    msg = LaneArray()
-    lane = Lane()
-    lane.header = data.header
-    msg.lanes.append(lane)
+def on_player_vehicle_input(data):
+    arr = data.data.split()
+    position_x = float(arr[0])
+    position_y = float(arr[1])
+    position_input = True
+
+def on_waypoint_input(data):
+    i=1
     for pose in data.poses:
-        waypoint = Waypoint()
-        waypoint.pose = pose
-        msg.lanes[0].waypoints.append(waypoint)
-
-    pub.publish(msg)
+        route
 
 
-def convert_waypoints_carla_to_autoware():
-    """
-    main loop
-    """
-    rospy.init_node('carla_to_autoware_waypoints', anonymous=True)
-    rospy.Subscriber("/carla/ego_vehicle/waypoints",
-                     Path, path_callback)
-    rospy.spin()
+def setup():
+    global position_input
+    position_input = False
+    print("postition_input = false")
+    global position_x
+    position_x = 0
+    global position_y
+    position_y = 0
+    global route
+    route = Path() 
+    pub = rospy.Publisher(APOLLO_WAYPOINTS_TOPIC, Path, queue_size=10)
+    rospy.Subscriber(CALRA_WAYPOINTS_TOPIC, Path, on_waypoint_input, pub)
+    rospy.Subscriber(CARLA_PLAYER_VEHICLE_TOPIC, String, on_player_vehicle_input)
 
+def main():
+    rospy.init_node("carla_waypoints_to_apollo") 
+    setup()
+    while not rospy.is_shutdown:
+        if position_input = true
 
-if __name__ == '__main__':
-    convert_waypoints_carla_to_autoware()
+    rospy.spin()   
+
+if __name__ == "__main__":
+    main()
