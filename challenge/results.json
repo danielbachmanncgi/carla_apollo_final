@@ -11,7 +11,7 @@
             "split": "dev_split"
         }
     ], 
-    "stderr": "", 
+    "stderr": "\n==================================\n==[r0:CRASH] [Score = 0.00 : (route_score=0.0, infractions=-0.0)]\n==================================\nCrash message: Traceback (most recent call last):\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 1247, in run\n    self.load_environment_and_run(args, world_annotations, route_description)\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 1181, in load_environment_and_run\n    self.run_route(_route_description['trajectory'])\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 632, in run_route\n    spectator = self.world.get_spectator()\nRuntimeError: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:2000\n\n==================================\n\n", 
     "metadata": [
         {
             "accuracies": {
@@ -19,7 +19,7 @@
                 "avg. route points": 0.0, 
                 "total avg.": 0.0
             }, 
-            "stderr": ""
+            "stderr": "\n==================================\n==[r0:CRASH] [Score = 0.00 : (route_score=0.0, infractions=-0.0)]\n==================================\nCrash message: Traceback (most recent call last):\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 1247, in run\n    self.load_environment_and_run(args, world_annotations, route_description)\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 1181, in load_environment_and_run\n    self.run_route(_route_description['trajectory'])\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 632, in run_route\n    spectator = self.world.get_spectator()\nRuntimeError: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:2000\n\n==================================\n\n"
         }
     ]
 }
