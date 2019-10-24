@@ -3,23 +3,25 @@
     "result": [
         {
             "accuracies": {
-                "infraction points": 0.0, 
-                "avg. route points": 0.0, 
-                "total avg.": 0.0
+                "weather": "WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)", 
+                "infraction points": 8.0, 
+                "avg. route points": 8.515254293009216, 
+                "total avg.": 0.5152542930092157
             }, 
             "show_to_participant": true, 
             "split": "dev_split"
         }
     ], 
-    "stderr": "\n==================================\n==[r0:CRASH] [Score = 0.00 : (route_score=0.0, infractions=-0.0)]\n==================================\nCrash message: Traceback (most recent call last):\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 1247, in run\n    self.load_environment_and_run(args, world_annotations, route_description)\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 1181, in load_environment_and_run\n    self.run_route(_route_description['trajectory'])\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 632, in run_route\n    spectator = self.world.get_spectator()\nRuntimeError: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:2000\n\n==================================\n\n", 
+    "stderr": "\n==================================\n==[r0:FAILURE] [Score = 0.52 : (route_score=8.51525429301, infractions=-8.0)]\n===== Collisions:\n========== Agent collided against object with type=static.pole and id=0\n===== Sidewalk invasions:\n========== Agent invaded the sidewalk\n==================================\n\n", 
     "metadata": [
         {
             "accuracies": {
-                "infraction points": 0.0, 
-                "avg. route points": 0.0, 
-                "total avg.": 0.0
+                "weather": "WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)", 
+                "infraction points": 8.0, 
+                "avg. route points": 8.515254293009216, 
+                "total avg.": 0.5152542930092157
             }, 
-            "stderr": "\n==================================\n==[r0:CRASH] [Score = 0.00 : (route_score=0.0, infractions=-0.0)]\n==================================\nCrash message: Traceback (most recent call last):\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 1247, in run\n    self.load_environment_and_run(args, world_annotations, route_description)\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 1181, in load_environment_and_run\n    self.run_route(_route_description['trajectory'])\n  File \"/home/carla/scenario_runner-0.9.5/srunner/challenge/challenge_evaluator_routes.py\", line 632, in run_route\n    spectator = self.world.get_spectator()\nRuntimeError: time-out of 30000ms while waiting for the simulator, make sure the simulator is ready and connected to localhost:2000\n\n==================================\n\n"
+            "stderr": "\n==================================\n==[r0:FAILURE] [Score = 0.52 : (route_score=8.51525429301, infractions=-8.0)]\n===== Collisions:\n========== Agent collided against object with type=static.pole and id=0\n===== Sidewalk invasions:\n========== Agent invaded the sidewalk\n==================================\n\n"
         }
     ]
 }

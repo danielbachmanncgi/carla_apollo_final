@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "rospy".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "carla_ego_vehicle"
-PROJECT_SPACE_DIR = "/home/carla/carla-apollo/catkin_ws/devel"
+PROJECT_SPACE_DIR = "/home/lukas/carla/carla-apollo/catkin_ws/devel"
 PROJECT_VERSION = "0.0.0"

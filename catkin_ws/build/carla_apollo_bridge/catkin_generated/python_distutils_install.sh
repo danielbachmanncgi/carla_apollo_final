@@ -14,20 +14,20 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/carla/carla-apollo/catkin_ws/src/carla_apollo_bridge"
+echo_and_run cd "/home/lukas/carla/carla-apollo/catkin_ws/src/carla_apollo_bridge"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/carla/carla-apollo/catkin_ws/install/lib/python2.7/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/home/lukas/carla/carla-apollo/catkin_ws/install/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/carla/carla-apollo/catkin_ws/install/lib/python2.7/dist-packages:/home/carla/carla-apollo/catkin_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/carla/carla-apollo/catkin_ws/build" \
-    "/usr/bin/python2" \
-    "/home/carla/carla-apollo/catkin_ws/src/carla_apollo_bridge/setup.py" \
-    build --build-base "/home/carla/carla-apollo/catkin_ws/build/carla_apollo_bridge" \
+    PYTHONPATH="/home/lukas/carla/carla-apollo/catkin_ws/install/lib/python2.7/dist-packages:/home/lukas/carla/carla-apollo/catkin_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/lukas/carla/carla-apollo/catkin_ws/build" \
+    "/home/lukas/apollo_env/bin/python" \
+    "/home/lukas/carla/carla-apollo/catkin_ws/src/carla_apollo_bridge/setup.py" \
+    build --build-base "/home/lukas/carla/carla-apollo/catkin_ws/build/carla_apollo_bridge" \
     install \
     $DESTDIR_ARG \
-    --install-layout=deb --prefix="/home/carla/carla-apollo/catkin_ws/install" --install-scripts="/home/carla/carla-apollo/catkin_ws/install/bin"
+    --install-layout=deb --prefix="/home/lukas/carla/carla-apollo/catkin_ws/install" --install-scripts="/home/lukas/carla/carla-apollo/catkin_ws/install/bin"

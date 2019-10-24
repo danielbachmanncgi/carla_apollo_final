@@ -1,8 +1,8 @@
-# Install script for directory: /home/carla/carla-apollo/catkin_ws/src/carla_ros_bridge
+# Install script for directory: /home/lukas/carla/carla-apollo/catkin_ws/src/carla_ros_bridge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/carla/carla-apollo/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lukas/carla/carla-apollo/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,35 +32,30 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  include("/home/lukas/carla/carla-apollo/catkin_ws/build/carla_ros_bridge/catkin_generated/safe_execute_install.cmake")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/carla/carla-apollo/catkin_ws/build/carla_ros_bridge/catkin_generated/safe_execute_install.cmake")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lukas/carla/carla-apollo/catkin_ws/build/carla_ros_bridge/catkin_generated/installspace/carla_ros_bridge.pc")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/carla/carla-apollo/catkin_ws/build/carla_ros_bridge/catkin_generated/installspace/carla_ros_bridge.pc")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ros_bridge/cmake" TYPE FILE FILES
-    "/home/carla/carla-apollo/catkin_ws/build/carla_ros_bridge/catkin_generated/installspace/carla_ros_bridgeConfig.cmake"
-    "/home/carla/carla-apollo/catkin_ws/build/carla_ros_bridge/catkin_generated/installspace/carla_ros_bridgeConfig-version.cmake"
+    "/home/lukas/carla/carla-apollo/catkin_ws/build/carla_ros_bridge/catkin_generated/installspace/carla_ros_bridgeConfig.cmake"
+    "/home/lukas/carla/carla-apollo/catkin_ws/build/carla_ros_bridge/catkin_generated/installspace/carla_ros_bridgeConfig-version.cmake"
     )
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ros_bridge" TYPE FILE FILES "/home/carla/carla-apollo/catkin_ws/src/carla_ros_bridge/package.xml")
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ros_bridge" TYPE FILE FILES "/home/lukas/carla/carla-apollo/catkin_ws/src/carla_ros_bridge/package.xml")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/carla_ros_bridge" TYPE FILE FILES
-    "/home/carla/carla-apollo/catkin_ws/src/carla_ros_bridge/client.launch"
-    "/home/carla/carla-apollo/catkin_ws/src/carla_ros_bridge/client_with_rviz.launch"
-    "/home/carla/carla-apollo/catkin_ws/src/carla_ros_bridge/test/ros_bridge_client.test"
+    "/home/lukas/carla/carla-apollo/catkin_ws/src/carla_ros_bridge/client.launch"
+    "/home/lukas/carla/carla-apollo/catkin_ws/src/carla_ros_bridge/client_with_rviz.launch"
+    "/home/lukas/carla/carla-apollo/catkin_ws/src/carla_ros_bridge/test/ros_bridge_client.test"
     )
 endif()
 

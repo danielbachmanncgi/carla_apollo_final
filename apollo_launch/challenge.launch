@@ -4,11 +4,13 @@
   <arg name='host' default='localhost'/>
   <arg name='port' default='2000'/>
 
-  <!-- <node pkg="tf"  type="static_transform_publisher" name="base_link_to_gnss" args="0 0 0 0 0 0 /base_link /ego_vehicle/gnss/gnss1 10" />
-  <node pkg="tf"  type="static_transform_publisher" name="base_link_to_lidar" args="0 0 0 0 0 0 /base_link /ego_vehicle/lidar/lidar1 10" />
-  <node pkg="tf"  type="static_transform_publisher" name="base_link_to_camera" args="0 0 0 0 0 0 /base_link /ego_vehicle/camera/rgb/front 10" />
-  <node pkg="tf"  type="static_transform_publisher" name="base_link_to_fakeradar" args="0 0 0 0 0 0 /base_link /ego_vehicle/fakeradar 10" /> -->
-
+<!--   <node pkg="tf"  type="static_transform_publisher" name="localization_to_novatel" args="0 0 0 0 0 1.57 /localization /novatel 10" />
+  <node pkg="tf"  type="static_transform_publisher" name="novatel_to_velodyne64" args="0 0 0 0 0 0 /novatel /velodyne64 10" />
+  <node pkg="tf"  type="static_transform_publisher" name="novatel_to_velodyne16" args="0 0 0 0 0 0 /novatel /velodyne16 10" />
+  <node pkg="tf"  type="static_transform_publisher" name="novatel_to_short_camera" args="0 0 0 0 0 0 /novatel /short_camera 10" /> 
+  <node pkg="tf"  type="static_transform_publisher" name="novatel_to_radar_front" args="0 0 0 0 0 0 /novatel /radar_front 10" /> 
+  <node pkg="tf"  type="static_transform_publisher" name="short_camera_to_long_camera" args="0 0 0 0 0 0 /short_camera /long_camera 10" /> 
+ -->
   <include file="$(find carla_apollo_bridge)/launch/carla_apollo_bridge_common.launch"/>
   
 

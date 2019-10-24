@@ -13,12 +13,12 @@ from srunner.challenge.autoagents.ros_agent import RosAgent
 
 class ApolloRosAgent(RosAgent):
     """
-    Agent for Autoware ROS stack
+    Agent for Apollo ROS stack
     """
 
     def sensors(self):
         """
-        The sensors required for Autoware
+        The sensors required for Apollo
         """
         path = None
         if "TEAM_CODE_ROOT" in os.environ:

@@ -86,7 +86,7 @@ namespace message_traits
 
 
 // BOOLTRAITS {'IsFixedSize': True, 'IsMessage': True, 'HasHeader': False}
-// {'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg'], 'carla_msgs': ['/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_msgs/msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg']}
+// {'geometry_msgs': ['/opt/ros/kinetic/share/geometry_msgs/cmake/../msg'], 'carla_msgs': ['/home/lukas/carla/carla-apollo/catkin_ws/src/carla_msgs/msg'], 'std_msgs': ['/opt/ros/kinetic/share/std_msgs/cmake/../msg']}
 
 // !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
@@ -153,17 +153,17 @@ struct Definition< ::carla_msgs::CarlaEgoVehicleInfoWheel_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "#\n"
-"# Copyright (c) 2019 Intel Coporation.\n"
-"#\n"
-"# This work is licensed under the terms of the MIT license.\n"
-"# For a copy, see <https://opensource.org/licenses/MIT>.\n"
-"#\n"
-"float32 tire_friction\n"
-"float32 damping_rate\n"
-"float32 steer_angle\n"
-"bool disable_steering\n"
-;
+    return "#\n\
+# Copyright (c) 2019 Intel Coporation.\n\
+#\n\
+# This work is licensed under the terms of the MIT license.\n\
+# For a copy, see <https://opensource.org/licenses/MIT>.\n\
+#\n\
+float32 tire_friction\n\
+float32 damping_rate\n\
+float32 steer_angle\n\
+bool disable_steering\n\
+";
   }
 
   static const char* value(const ::carla_msgs::CarlaEgoVehicleInfoWheel_<ContainerAllocator>&) { return value(); }

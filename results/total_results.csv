@@ -1,0 +1,1155 @@
+framework,infraction points,avg. route points,total avg,weather ,infraction
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6,100,94,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.bmw.isetta and id=545
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6,100,94,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.jeep.wrangler_rubicon and id=1700
+===== Red lights:
+========== Agent ran a red light 1511 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6,100,94,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.kawasaki.ninja and id=2846
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 3806 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 4274 at (x=-10.0799999237, y=177.88999939, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 4732 at (x=56.6900138855, y=299.989318848, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 4953 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,6,100,94,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.bmw.isetta and id=5351
+===== Red lights:
+========== Agent ran a red light 5179 at (x=30.9599895477, y=194.289962769, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 5421 at (x=-10.0799999237, y=177.88999939, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,18,83.5384905229,65.5384905229,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 65.54 : (route_score=83.5384905229, infractions=-18.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.audi.tt and id=6017
+========== Agent collided against object with type=vehicle.audi.tt and id=6040
+========== Agent collided against object with type=vehicle.dodge_charger.police and id=6064
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 6101 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,12,100,88,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 88.00 : (route_score=100.0, infractions=-12.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.bmw.isetta and id=7403
+========== Agent collided against object with type=vehicle.dodge_charger.police and id=7439
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 7717 at (x=-10.0799999237, y=177.88999939, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 8176 at (x=56.6900138855, y=299.989318848, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 8397 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,8.2415531857,8.2415531857,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 8.24 : (route_score=8.2415531857, infractions=-0.0)]
+==================================
+
+"
+apollo,6,100,94,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.carlamotors.carlacola and id=9239
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6,100,94,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.audi.etron and id=9665
+===== Red lights:
+========== Agent ran a red light 9545 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,8.2415531857,8.2415531857,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 8.24 : (route_score=8.2415531857, infractions=-0.0)]
+==================================
+
+"
+apollo,6,8.1471248545,2.1471248545,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 2.15 : (route_score=8.14712485451, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.volkswagen.t2 and id=10421
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 10692 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6,100,94,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.mercedes-benz.coupe and id=12206
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 12307 at (x=-10.0799999237, y=177.88999939, x=0.219999998808)
+==================================
+
+"
+apollo,6,100,94,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.bmw.grandtourer and id=12684
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 12986 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 13212 at (x=30.9599895477, y=194.289962769, x=0.219999998808)
+==================================
+
+"
+apollo,0,100,100,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6,100,94,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.bmw.grandtourer and id=13866
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 142 at (x=56.6900138855, y=299.989318848, x=0.219999998808)
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.bh.crossbike and id=565
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 589 at (x=30.9599895477, y=194.289962769, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 1510 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,14.0,60.457788166877066,46.457788166877066,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 46.46 : (route_score=60.4577881669, infractions=-14.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.chevrolet.impala and id=2845
+========== Agent collided against object with type=vehicle.nissan.micra and id=2810
+===== Red lights:
+========== Agent ran a red light 2655 at (x=186.950057983, y=176.769973755, x=0.219999998808)
+===== Wrong way:
+========== Agent invaded a lane in opposite direction: road_id=14, lane_id=-1
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.citroen.c3 and id=3095
+===== Red lights:
+========== Agent ran a red light 2884 at (x=30.9599895477, y=194.289962769, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 3126 at (x=-10.0799999237, y=177.88999939, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.toyota.prius and id=3969
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.bmw.grandtourer and id=4185
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 4273 at (x=-10.0799999237, y=177.88999939, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 4732 at (x=56.6900138855, y=299.989318848, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,12.0,100.0,88.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 88.00 : (route_score=100.0, infractions=-12.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.ford.mustang and id=6035
+========== Agent collided against object with type=vehicle.volkswagen.t2 and id=6060
+===== Red lights:
+========== Agent ran a red light 5879 at (x=56.6900138855, y=299.989318848, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 6100 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 6568 at (x=-10.0799999237, y=177.88999939, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.88805805131255,8.88805805131255,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 8.89 : (route_score=8.88805805131, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 8394 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.bh.crossbike and id=8742
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6.0,8.147124854513736,2.147124854513736,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 2.15 : (route_score=8.14712485451, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.carlamotors.carlacola and id=9210
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.yamaha.yzf and id=9716
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 10467 at (x=56.6900138855, y=299.989318848, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 10688 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 11156 at (x=-10.0799999237, y=177.88999939, x=0.219999998808)
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.bmw.grandtourer and id=11542
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.carlamotors.carlacola and id=12213
+===== Red lights:
+========== Agent ran a red light 12062 at (x=30.9599895477, y=194.289962769, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 12304 at (x=-10.0799999237, y=177.88999939, x=0.219999998808)
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.carlamotors.carlacola and id=12657
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 12763 at (x=56.6900138855, y=299.989318848, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 12984 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 13210 at (x=30.9599895477, y=194.289962769, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 13452 at (x=-10.0799999237, y=177.88999939, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.citroen.c3 and id=14053
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.mini.cooperst and id=14540
+===== Red lights:
+========== Agent ran a red light 14358 at (x=30.9599895477, y=194.289962769, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,12.0,100.0,88.0,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 88.00 : (route_score=100.0, infractions=-12.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.lincoln.mkz2017 and id=15184
+========== Agent collided against object with type=vehicle.dodge_charger.police and id=15256
+==================================
+
+"
+apollo,12.0,100.0,88.0,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 88.00 : (route_score=100.0, infractions=-12.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.carlamotors.carlacola and id=15435
+========== Agent collided against object with type=vehicle.yamaha.yzf and id=15417
+===== Red lights:
+========== Agent ran a red light 15280 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,24.0,29.695827115451106,5.695827115451106,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:FAILURE] [Score = 5.70 : (route_score=29.6958271155, infractions=-24.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.audi.tt and id=15670
+========== Agent collided against object with type=vehicle.carlamotors.carlacola and id=15654
+========== Agent collided against object with type=vehicle.citroen.c3 and id=15701
+========== Agent collided against object with type=static.pole and id=0
+===== Red lights:
+========== Agent ran a red light 15506 at (x=30.9599895477, y=194.289962769, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,8.241553185702237,8.241553185702237,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 8.24 : (route_score=8.2415531857, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 16207 at (x=56.6900138855, y=299.989318848, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=80, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,9.019759417016763,9.019759417016763,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 9.02 : (route_score=9.01975941702, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+===== Red lights:
+========== Agent ran a red light 17354 at (x=56.6900138855, y=299.989318848, x=0.219999998808)
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,100.0,100.0,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 100.00 : (route_score=100.0, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.241553185702237,8.241553185702237,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 8.24 : (route_score=8.2415531857, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.147124854513736,8.147124854513736,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 8.15 : (route_score=8.14712485451, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.88805805131255,8.88805805131255,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 8.89 : (route_score=8.88805805131, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,9.634323005491128,9.634323005491128,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 9.63 : (route_score=9.63432300549, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,9.019759417016763,9.019759417016763,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 9.02 : (route_score=9.01975941702, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.241553185702237,8.241553185702237,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 8.24 : (route_score=8.2415531857, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.147124854513736,8.147124854513736,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 8.15 : (route_score=8.14712485451, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.88805805131255,8.88805805131255,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 8.89 : (route_score=8.88805805131, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,9.634323005491128,9.634323005491128,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 9.63 : (route_score=9.63432300549, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,9.019759417016763,9.019759417016763,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 9.02 : (route_score=9.01975941702, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.241553185702237,8.241553185702237,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 8.24 : (route_score=8.2415531857, infractions=-0.0)]
+==================================
+
+"
+apollo,6.0,8.147124854513736,2.147124854513736,"WeatherParameters(cloudyness=90, precipitation=60, precipitation_deposits=100, wind_intensity=1, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:TIMEOUT] [Score = 2.15 : (route_score=8.14712485451, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.bmw.grandtourer and id=20733
+==================================
+
+"
+apollo,0.0,8.88805805131255,8.88805805131255,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 8.89 : (route_score=8.88805805131, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,9.634323005491128,9.634323005491128,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 9.63 : (route_score=9.63432300549, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,9.019759417016763,9.019759417016763,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 9.02 : (route_score=9.01975941702, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.241553185702237,8.241553185702237,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 8.24 : (route_score=8.2415531857, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.147124854513736,8.147124854513736,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 8.15 : (route_score=8.14712485451, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,8.88805805131255,8.88805805131255,"WeatherParameters(cloudyness=15, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 8.89 : (route_score=8.88805805131, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,9.634323005491128,9.634323005491128,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 9.63 : (route_score=9.63432300549, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,9.019759417016763,9.019759417016763,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 9.02 : (route_score=9.01975941702, infractions=-0.0)]
+==================================
+
+"
+apollo,0.0,9.019759417016763,9.019759417016763,"WeatherParameters(cloudyness=20, precipitation=0, precipitation_deposits=50, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=15)","
+==================================
+==[r0:TIMEOUT] [Score = 9.02 : (route_score=9.01975941702, infractions=-0.0)]
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=0, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.gazelle.omafiets and id=323
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=0, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.gazelle.omafiets and id=323
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=0, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.ford.mustang and id=248
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=0, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.mercedes-benz.coupe and id=257
+===== Red lights:
+========== Agent ran a red light 134 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"
+apollo,6.0,100.0,94.0,"WeatherParameters(cloudyness=0, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)","
+==================================
+==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]
+===== Collisions:
+========== Agent collided against object with type=vehicle.mercedes-benz.coupe and id=257
+===== Red lights:
+========== Agent ran a red light 134 at (x=186.950057983, y=226.179977417, x=0.219999998808)
+==================================
+
+"

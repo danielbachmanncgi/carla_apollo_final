@@ -1,20 +1,20 @@
 
 "use strict";
 
-let CarlaEgoVehicleInfo = require('./CarlaEgoVehicleInfo.js');
-let CarlaEgoVehicleInfoWheel = require('./CarlaEgoVehicleInfoWheel.js');
-let CarlaCollisionEvent = require('./CarlaCollisionEvent.js');
-let CarlaLaneInvasionEvent = require('./CarlaLaneInvasionEvent.js');
-let CarlaEgoVehicleStatus = require('./CarlaEgoVehicleStatus.js');
-let CarlaEgoVehicleControl = require('./CarlaEgoVehicleControl.js');
 let CarlaMapInfo = require('./CarlaMapInfo.js');
+let CarlaEgoVehicleInfoWheel = require('./CarlaEgoVehicleInfoWheel.js');
+let CarlaEgoVehicleControl = require('./CarlaEgoVehicleControl.js');
+let CarlaEgoVehicleStatus = require('./CarlaEgoVehicleStatus.js');
+let CarlaLaneInvasionEvent = require('./CarlaLaneInvasionEvent.js');
+let CarlaCollisionEvent = require('./CarlaCollisionEvent.js');
+let CarlaEgoVehicleInfo = require('./CarlaEgoVehicleInfo.js');
 
 module.exports = {
-  CarlaEgoVehicleInfo: CarlaEgoVehicleInfo,
-  CarlaEgoVehicleInfoWheel: CarlaEgoVehicleInfoWheel,
-  CarlaCollisionEvent: CarlaCollisionEvent,
-  CarlaLaneInvasionEvent: CarlaLaneInvasionEvent,
-  CarlaEgoVehicleStatus: CarlaEgoVehicleStatus,
-  CarlaEgoVehicleControl: CarlaEgoVehicleControl,
   CarlaMapInfo: CarlaMapInfo,
+  CarlaEgoVehicleInfoWheel: CarlaEgoVehicleInfoWheel,
+  CarlaEgoVehicleControl: CarlaEgoVehicleControl,
+  CarlaEgoVehicleStatus: CarlaEgoVehicleStatus,
+  CarlaLaneInvasionEvent: CarlaLaneInvasionEvent,
+  CarlaCollisionEvent: CarlaCollisionEvent,
+  CarlaEgoVehicleInfo: CarlaEgoVehicleInfo,
 };

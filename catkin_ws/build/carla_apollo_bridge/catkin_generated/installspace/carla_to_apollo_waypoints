@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
 """
 receive a path from carla_scenario_runner and convert it to apollo

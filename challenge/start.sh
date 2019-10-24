@@ -7,14 +7,14 @@
 #rosnode cleanup <<< 'y'
 
 #As a workaround we wait 5 seconds in simulation time
-echo "Waiting for 5 seconds in simulation time..."
+echo "Waiting for 3 seconds in simulation time..."
 python << EOF
 import sys
 import rospy
 from rosgraph_msgs.msg import Clock
 
 def on_clock(data):
-    if data.clock.to_sec() >= 5:
+    if data.clock.to_sec() >= 3:
         rospy.signal_shutdown("")
 
 rospy.init_node("sleep", anonymous=True)

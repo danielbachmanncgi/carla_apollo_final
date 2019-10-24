@@ -1,0 +1,27 @@
+{
+    "submission_status": "FINISHED", 
+    "result": [
+        {
+            "accuracies": {
+                "weather": "WeatherParameters(cloudyness=0, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)", 
+                "infraction points": 6.0, 
+                "avg. route points": 100.0, 
+                "total avg.": 94.0
+            }, 
+            "show_to_participant": true, 
+            "split": "dev_split"
+        }
+    ], 
+    "stderr": "\n==================================\n==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]\n===== Collisions:\n========== Agent collided against object with type=vehicle.mercedes-benz.coupe and id=257\n===== Red lights:\n========== Agent ran a red light 134 at (x=186.950057983, y=226.179977417, x=0.219999998808)\n==================================\n\n", 
+    "metadata": [
+        {
+            "accuracies": {
+                "weather": "WeatherParameters(cloudyness=0, precipitation=0, precipitation_deposits=0, wind_intensity=0.35, sun_azimuth_angle=0, sun_altitude_angle=75)", 
+                "infraction points": 6.0, 
+                "avg. route points": 100.0, 
+                "total avg.": 94.0
+            }, 
+            "stderr": "\n==================================\n==[r0:SUCCESS] [Score = 94.00 : (route_score=100.0, infractions=-6.0)]\n===== Collisions:\n========== Agent collided against object with type=vehicle.mercedes-benz.coupe and id=257\n===== Red lights:\n========== Agent ran a red light 134 at (x=186.950057983, y=226.179977417, x=0.219999998808)\n==================================\n\n"
+        }
+    ]
+}

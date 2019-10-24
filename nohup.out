@@ -1,0 +1,236 @@
+python: can't open file 'tf_broadcaster.py': [Errno 2] No such file or directory
+python: can't open file 'tf_broadcaster.py': [Errno 2] No such file or directory
+python: can't open file 'tf_broadcaster.py': [Errno 2] No such file or directory
+python: can't open file 'tf_broadcaster.py': [Errno 2] No such file or directory
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Unhandled exception in thread started by 
+sys.excepthook is missing
+lost sys.stderr
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+[WARN] [1570230711.495854, 75.933337]: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Unable to register with master node [http://localhost:11311]: master may not be running yet. Will keep trying.
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 79, in <module>
+    rospy.init_node('tf_broadcaster')
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/client.py", line 336, in init_node
+    raise rospy.exceptions.ROSInitException("Failed to initialize time. Please check logs for additional details")
+rospy.exceptions.ROSInitException: Failed to initialize time. Please check logs for additional details
+Unable to register with master node [http://localhost:11311]: master may not be running yet. Will keep trying.
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 79, in <module>
+    rospy.init_node('tf_broadcaster')
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/client.py", line 336, in init_node
+    raise rospy.exceptions.ROSInitException("Failed to initialize time. Please check logs for additional details")
+rospy.exceptions.ROSInitException: Failed to initialize time. Please check logs for additional details
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+shutdown request: user request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request
+Traceback (most recent call last):
+  File "/home/lukas/carla/carla-apollo/apollo_launch/tf_broadcaster.py", line 92, in <module>
+    rate.sleep()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 103, in sleep
+    sleep(self._remaining(curr_time))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/timer.py", line 166, in sleep
+    raise rospy.exceptions.ROSInterruptException("ROS shutdown request")
+rospy.exceptions.ROSInterruptException: ROS shutdown request

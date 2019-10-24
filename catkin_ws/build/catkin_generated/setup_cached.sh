@@ -7,10 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/carla/carla-apollo/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/carla/carla-apollo/catkin_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/carla/carla-apollo/catkin_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/carla/carla-apollo/catkin_ws/build"
-export PYTHONPATH="/home/carla/carla-apollo/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages:/home/carla/CARLA_0.9.5/PythonAPI/carla/:/home/carla/CARLA_0.9.5/PythonAPI/carla/agents/:/home/carla/scenario_runner-0.9.5:/home/carla/CARLA_0.9.5/PythonAPI/carla/dist/carla-0.9.5-py2.7-linux-x86_64.egg:/home/carla/CARLA_0.9.5/PythonAPI/carla/agents:/home/CARLA_0.9.5/PythonAPI/examples"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/carla/carla-apollo/catkin_ws/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/carla/carla-apollo/nemodrive/catkin_ws/src:/home/carla/carla-apollo/catkin_ws/src:$ROS_PACKAGE_PATH"
+export LD_LIBRARY_PATH="/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu"
+export PKG_CONFIG_PATH="/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig"
+export PWD="/home/lukas/carla/carla-apollo/catkin_ws/build"
+export PYTHONPATH="/opt/ros/kinetic/lib/python2.7/dist-packages:/home/lukas/carla/CARLA_0.9.5/PythonAPI/carla/:/home/lukas/carla/CARLA_0.9.5/PythonAPI/carla/agents/:/home/lukas/carla/scenario_runner-0.9.5/:/home/lukas/carla/CARLA_0.9.5/PythonAPI/carla/dist/carla-0.9.5-py2.7-linux-x86_64.egg:/home/lukas/carla/CARLA_0.9.5/PythonAPI/examples/"

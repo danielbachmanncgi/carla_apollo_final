@@ -94,7 +94,7 @@ namespace message_traits
 
 
 // BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': True}
-// {'geometry_msgs': ['/opt/ros/melodic/share/geometry_msgs/cmake/../msg'], 'carla_msgs': ['/home/carla/carla-apollo/nemodrive/catkin_ws/src/carla_msgs/msg'], 'std_msgs': ['/opt/ros/melodic/share/std_msgs/cmake/../msg']}
+// {'geometry_msgs': ['/opt/ros/kinetic/share/geometry_msgs/cmake/../msg'], 'carla_msgs': ['/home/lukas/carla/carla-apollo/catkin_ws/src/carla_msgs/msg'], 'std_msgs': ['/opt/ros/kinetic/share/std_msgs/cmake/../msg']}
 
 // !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 
@@ -161,82 +161,84 @@ struct Definition< ::carla_msgs::CarlaEgoVehicleStatus_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "#\n"
-"# Copyright (c) 2019 Intel Coporation.\n"
-"#\n"
-"# This work is licensed under the terms of the MIT license.\n"
-"# For a copy, see <https://opensource.org/licenses/MIT>.\n"
-"#\n"
-"\n"
-"Header header\n"
-"\n"
-"float32 velocity\n"
-"float32 acceleration\n"
-"geometry_msgs/Quaternion orientation\n"
-"\n"
-"# the current control values, as reported by Carla\n"
-"CarlaEgoVehicleControl control\n"
-"\n"
-"================================================================================\n"
-"MSG: std_msgs/Header\n"
-"# Standard metadata for higher-level stamped data types.\n"
-"# This is generally used to communicate timestamped data \n"
-"# in a particular coordinate frame.\n"
-"# \n"
-"# sequence ID: consecutively increasing ID \n"
-"uint32 seq\n"
-"#Two-integer timestamp that is expressed as:\n"
-"# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n"
-"# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n"
-"# time-handling sugar is provided by the client library\n"
-"time stamp\n"
-"#Frame this data is associated with\n"
-"string frame_id\n"
-"\n"
-"================================================================================\n"
-"MSG: geometry_msgs/Quaternion\n"
-"# This represents an orientation in free space in quaternion form.\n"
-"\n"
-"float64 x\n"
-"float64 y\n"
-"float64 z\n"
-"float64 w\n"
-"\n"
-"================================================================================\n"
-"MSG: carla_msgs/CarlaEgoVehicleControl\n"
-"#\n"
-"# Copyright (c) 2018-2019 Intel Coporation.\n"
-"#\n"
-"# This work is licensed under the terms of the MIT license.\n"
-"# For a copy, see <https://opensource.org/licenses/MIT>.\n"
-"#\n"
-"# This represents a vehicle control message sent to CARLA simulator\n"
-"\n"
-"Header header\n"
-"\n"
-"# The CARLA vehicle control data\n"
-"\n"
-"# 0. <= throttle <= 1.\n"
-"float32 throttle\n"
-"\n"
-"# -1. <= steer <= 1.\n"
-"float32 steer\n"
-"\n"
-"# 0. <= brake <= 1.\n"
-"float32 brake\n"
-"\n"
-"# hand_brake 0 or 1\n"
-"bool hand_brake\n"
-"\n"
-"# reverse 0 or 1\n"
-"bool reverse\n"
-"\n"
-"# gear\n"
-"int32 gear\n"
-"\n"
-"# manual gear shift\n"
-"bool manual_gear_shift\n"
-;
+    return "#\n\
+# Copyright (c) 2019 Intel Coporation.\n\
+#\n\
+# This work is licensed under the terms of the MIT license.\n\
+# For a copy, see <https://opensource.org/licenses/MIT>.\n\
+#\n\
+\n\
+Header header\n\
+\n\
+float32 velocity\n\
+float32 acceleration\n\
+geometry_msgs/Quaternion orientation\n\
+\n\
+# the current control values, as reported by Carla\n\
+CarlaEgoVehicleControl control\n\
+\n\
+================================================================================\n\
+MSG: std_msgs/Header\n\
+# Standard metadata for higher-level stamped data types.\n\
+# This is generally used to communicate timestamped data \n\
+# in a particular coordinate frame.\n\
+# \n\
+# sequence ID: consecutively increasing ID \n\
+uint32 seq\n\
+#Two-integer timestamp that is expressed as:\n\
+# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')\n\
+# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')\n\
+# time-handling sugar is provided by the client library\n\
+time stamp\n\
+#Frame this data is associated with\n\
+# 0: no frame\n\
+# 1: global frame\n\
+string frame_id\n\
+\n\
+================================================================================\n\
+MSG: geometry_msgs/Quaternion\n\
+# This represents an orientation in free space in quaternion form.\n\
+\n\
+float64 x\n\
+float64 y\n\
+float64 z\n\
+float64 w\n\
+\n\
+================================================================================\n\
+MSG: carla_msgs/CarlaEgoVehicleControl\n\
+#\n\
+# Copyright (c) 2018-2019 Intel Coporation.\n\
+#\n\
+# This work is licensed under the terms of the MIT license.\n\
+# For a copy, see <https://opensource.org/licenses/MIT>.\n\
+#\n\
+# This represents a vehicle control message sent to CARLA simulator\n\
+\n\
+Header header\n\
+\n\
+# The CARLA vehicle control data\n\
+\n\
+# 0. <= throttle <= 1.\n\
+float32 throttle\n\
+\n\
+# -1. <= steer <= 1.\n\
+float32 steer\n\
+\n\
+# 0. <= brake <= 1.\n\
+float32 brake\n\
+\n\
+# hand_brake 0 or 1\n\
+bool hand_brake\n\
+\n\
+# reverse 0 or 1\n\
+bool reverse\n\
+\n\
+# gear\n\
+int32 gear\n\
+\n\
+# manual gear shift\n\
+bool manual_gear_shift\n\
+";
   }
 
   static const char* value(const ::carla_msgs::CarlaEgoVehicleStatus_<ContainerAllocator>&) { return value(); }
